@@ -8,7 +8,7 @@ import json
 from test_mongo import database_mongo
 import copy
 
-
+# 爬取汽车之家
 source = 'https://car.autohome.com.cn'
 
 def GetHLDPicLink(url):
